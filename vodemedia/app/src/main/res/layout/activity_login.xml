@@ -10,7 +10,7 @@
     tools:context=".UserAreaActivity">
 
     <EditText
-        android:id="@+id/etUsername"
+        android:id="@+id/et_username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -22,27 +22,27 @@
         android:hint="@string/hint_username" />
 
     <EditText
-        android:id="@+id/etPassword"
+        android:id="@+id/et_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/etUsername"
+        android:layout_below="@+id/et_username"
         android:ems="10"
         android:hint="@string/hint_password"
         android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/bSignIn"
+        android:id="@+id/btn_sign_in"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/etPassword"
+        android:layout_below="@+id/et_password"
         android:text="@string/ui_login" />
 
     <TextView
@@ -50,7 +50,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/hint_register"
-        android:id="@+id/tvRegisterLink"
-        android:layout_below="@+id/bSignIn"
+        android:id="@+id/tv_register_link"
+        android:layout_below="@+id/btn_sign_in"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>

@@ -1,6 +1,5 @@
 package vodemedia.com.onlineeducation;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -26,11 +25,11 @@ public class RegisterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
-        final EditText etAge = (EditText) findViewById(R.id.etAge);
-        final EditText etName = (EditText) findViewById(R.id.etName);
-        final EditText etUsername = (EditText) findViewById(R.id.etUsername);
-        final EditText etPassword = (EditText) findViewById(R.id.etPassword);
-        final Button bRegister = (Button) findViewById(R.id.bRegister);
+        final EditText etAge = (EditText) findViewById(R.id.et_age);
+        final EditText etName = (EditText) findViewById(R.id.et_name);
+        final EditText etUsername = (EditText) findViewById(R.id.et_username);
+        final EditText etPassword = (EditText) findViewById(R.id.et_password);
+        final Button bRegister = (Button) findViewById(R.id.btn_register);
 
         bRegister.setOnClickListener(new View.OnClickListener() {
             @Override

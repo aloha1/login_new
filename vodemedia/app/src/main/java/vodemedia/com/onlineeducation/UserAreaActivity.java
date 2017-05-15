@@ -22,8 +22,8 @@ public class UserAreaActivity extends AppCompatActivity {
         int age = intent.getIntExtra("age", -1);
 
         TextView tvWelcomeMsg = (TextView) findViewById(R.id.tvWelcomeMsg);
-        EditText etUsername = (EditText) findViewById(R.id.etUsername);
-        EditText etAge = (EditText) findViewById(R.id.etAge);
+        EditText etUsername = (EditText) findViewById(R.id.et_username);
+        EditText etAge = (EditText) findViewById(R.id.et_age);
 
         // Display user details
         String message = name + " welcome to your user area";

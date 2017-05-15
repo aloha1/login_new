@@ -25,10 +25,10 @@ public class LoginActivity extends AppCompatActivity {
         initView();
     }
     private void initView(){
-        final EditText etUsername = (EditText) findViewById(R.id.etUsername);
-        final EditText etPassword = (EditText) findViewById(R.id.etPassword);
-        final TextView tvRegisterLink = (TextView) findViewById(R.id.tvRegisterLink);
-        final Button bLogin = (Button) findViewById(R.id.bSignIn);
+        final EditText etUsername = (EditText) findViewById(R.id.et_username);
+        final EditText etPassword = (EditText) findViewById(R.id.et_password);
+        final TextView tvRegisterLink = (TextView) findViewById(R.id.tv_register_link);
+        final Button bLogin = (Button) findViewById(R.id.btn_sign_in);
 
         tvRegisterLink.setOnClickListener(new View.OnClickListener() {
             @Override
